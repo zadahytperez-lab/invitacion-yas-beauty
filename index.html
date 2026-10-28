@@ -588,10 +588,10 @@
         function updateCountdown() {
             const now = new Date();
             let eventYear = now.getFullYear();
-            let eventDate = new Date(`November 7, ${eventYear} 18:00:00`);
+            let eventDate = new Date(`November 7, ${eventYear} 17:00:00`);
 
             if (now > eventDate) {
-                eventDate = new Date(`November 7, ${eventYear + 1} 18:00:00`);
+                eventDate = new Date(`November 7, ${eventYear + 1} 17:00:00`);
             }
 
             const difference = eventDate - now;
